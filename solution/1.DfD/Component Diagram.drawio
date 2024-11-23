@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-05-15T08:59:36.774Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="RGEePzMFWrLccb97GWpz" version="24.4.0" type="device">
+  <diagram name="Page-1" id="ajpKEqtZVVPj_nejs15c">
+    <mxGraphModel dx="1274" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-1" value="&lt;div&gt;User Interface&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Alice, Bob)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="-340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-2" value="Key Generation Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-3" value="Key Exchange Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-4" value="Authentication Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-5" value="Encryption Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-6" value="Signing Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-7" value="Transmission Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-8" value="Decryption Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-9" value="Verification Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-10" value="&lt;h3 style=&quot;font-size: 16px;&quot;&gt;Component Diagram&lt;/h3&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;The Component Diagram visualizes the physical components of the system, including secure key exchange and encryption components.&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Components&lt;/strong&gt;:&lt;/p&gt;&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;User Interface (Alice, Bob)&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Key Generation Module&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Key Exchange Module&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Authentication Module&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Encryption Module&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Signing Module&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Transmission Module&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Decryption Module&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Verification Module&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="360" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-11" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.433;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XAN8xkatu9QYh9qAfUjT-2" target="XAN8xkatu9QYh9qAfUjT-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="380" y="-170" as="sourcePoint" />
+            <mxPoint x="480" y="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-12" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XAN8xkatu9QYh9qAfUjT-3" target="XAN8xkatu9QYh9qAfUjT-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="-20" as="sourcePoint" />
+            <mxPoint x="640" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XAN8xkatu9QYh9qAfUjT-4" target="XAN8xkatu9QYh9qAfUjT-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="190" as="sourcePoint" />
+            <mxPoint x="640" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-14" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XAN8xkatu9QYh9qAfUjT-5" target="XAN8xkatu9QYh9qAfUjT-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="190" as="sourcePoint" />
+            <mxPoint x="640" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-15" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XAN8xkatu9QYh9qAfUjT-6" target="XAN8xkatu9QYh9qAfUjT-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="380" as="sourcePoint" />
+            <mxPoint x="640" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XAN8xkatu9QYh9qAfUjT-7">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="380" as="sourcePoint" />
+            <mxPoint x="590" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-17" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XAN8xkatu9QYh9qAfUjT-8" target="XAN8xkatu9QYh9qAfUjT-7">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="580" as="sourcePoint" />
+            <mxPoint x="640" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAN8xkatu9QYh9qAfUjT-18" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XAN8xkatu9QYh9qAfUjT-9" target="XAN8xkatu9QYh9qAfUjT-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="580" as="sourcePoint" />
+            <mxPoint x="640" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
